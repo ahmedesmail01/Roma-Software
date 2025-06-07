@@ -14,13 +14,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #101828;
     --foreground: #ededed;
   }
 }
 
-/* body {
+body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-} */
+}
+
+.logo-color {
+  filter: brightness(0) invert(1);
+  /* For SVG images */
+  path {
+    fill: #2563eb; /* Change this to your desired color */
+  }
+}
