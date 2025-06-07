@@ -101,7 +101,7 @@ const HeroSec = () => {
   ]);
 
   return (
-    <div>
+    <div id="hero">
       <HeroParallax products={products} />
     </div>
   );
