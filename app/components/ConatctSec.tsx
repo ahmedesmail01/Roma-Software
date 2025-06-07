@@ -5,12 +5,7 @@ import { Cover } from "./ui/cover";
 import { PlaceholdersAndVanishInput } from "./ui/placeholders-and-vanish-input";
 
 const ConatctSec = () => {
-  const placeholders = [
-    "Enter Your Email?",
-    "Who is ROMA MPH?",
-    "Start Your Dream",
-    "Build Your Own platform",
-  ];
+  const placeholders = ["Enter Your Email?"];
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log(e.target.value);
