@@ -45,7 +45,7 @@ const ServicesSec = () => {
   ];
 
   return (
-    <div className="max-w-7xl p-4 mx-auto my-10 lg:my-40">
+    <div id="services" className="max-w-7xl p-4 mx-auto my-10 lg:my-40">
       <h1 className="text-4xl md:text-7xl font-bold mb-10">Services</h1>
       <p className="text-base mb-4 md:text-2xl">
         At ROMA, we offer a wide range of software services tailored to meet

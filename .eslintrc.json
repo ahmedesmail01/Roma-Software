@@ -1,0 +1,16 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // Disable explicit any errors
+    "@typescript-eslint/no-explicit-any": "off",
+
+    // Disable unused variable errors
+    "@typescript-eslint/no-unused-vars": "off",
+
+    // Allow img tags (optional)
+    "@next/next/no-img-element": "off",
+
+    // Fix React Hook dependencies
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}

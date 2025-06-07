@@ -1,40 +1,46 @@
 import Image from "next/image";
 import React from "react";
 import logo from "@/public/images/logo-and-text.svg";
-import { HoverBorderGradient } from "./ui/hover-border-gradient";
+// import { HoverBorderGradient } from "./ui/hover-border-gradient";
 
 const Navbar = () => {
   return (
     <>
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="max-w-screen-xl flex flex-no-wrap items-center justify-between mx-auto p-4">
           <a
             href="https://romamph.com/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <Image src={logo} className="h-8 logo-color " alt="Roma Logo" />
+            <Image
+              src={logo}
+              className="h-6 md:h-8 logo-color "
+              alt="Roma Logo"
+            />
             {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Roma
             </span> */}
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            {/* <button
+            <button
               type="button"
               className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Get started
-            </button> */}
+            </button>
 
-            <div className=" flex justify-center text-center">
-              <HoverBorderGradient
-                containerClassName="rounded-full"
-                as="button"
-                className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
-              >
-                <span>Get Start</span>
-              </HoverBorderGradient>
-            </div>
-            <button
+            {/* <div className=" flex justify-center text-center">
+              <a href="#contact">
+                <HoverBorderGradient
+                  containerClassName="rounded-full"
+                  as="button"
+                  className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
+                >
+                  <span className="text-nowrap">Get Start</span>
+                </HoverBorderGradient>
+              </a>
+            </div> */}
+            {/* <button
               data-collapse-toggle="navbar-cta"
               type="button"
               className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -57,7 +63,7 @@ const Navbar = () => {
                   d="M1 1h15M1 7h15M1 13h15"
                 />
               </svg>
-            </button>
+            </button> */}
           </div>
           <div
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
@@ -83,7 +89,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#services"
                   className="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Services
@@ -91,7 +97,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#contact"
                   className="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Contact

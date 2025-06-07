@@ -1,4 +1,7 @@
 import AboutSec from "./components/AboutSec";
+import ConatctSec from "./components/ConatctSec";
+import Footer from "./components/Footer";
+import GlobSec from "./components/GlobSec";
 import HeroSec from "./components/HeroSec";
 import Navbar from "./components/Navbar";
 import ServicesSec from "./components/ServicesSec";
@@ -14,8 +17,11 @@ export default function Home() {
         <AboutSec />
         <ServicesSec />
         <Testimonials />
-        <SloganSec />
+        {/* <SloganSec /> */}
+        <GlobSec />
+        <ConatctSec />
       </div>
+      <Footer />
     </>
   );
 }

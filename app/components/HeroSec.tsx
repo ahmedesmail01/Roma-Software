@@ -4,7 +4,7 @@ import React from "react";
 import { HeroParallax } from "./ui/hero-parallax";
 
 const HeroSec = () => {
-  const [products, setProducts] = React.useState([
+  const products = [
     {
       title: "Moonbeam",
       link: "https://gomoonbeam.com",
@@ -98,7 +98,7 @@ const HeroSec = () => {
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
     },
-  ]);
+  ];
 
   return (
     <div id="hero" className="mb-10 lg:mb-40">
