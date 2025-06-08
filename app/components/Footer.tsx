@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="mx-auto w-full  p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" className="flex items-center">
+            <a href="#" className="flex items-center">
               <Image src={logo} className="h-8 logo-color " alt="Roma Logo" />
             </a>
           </div>
@@ -72,7 +72,7 @@ const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2025{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
+            <a href="#" className="hover:underline">
               Romamph™
             </a>
             . All Rights Reserved.
