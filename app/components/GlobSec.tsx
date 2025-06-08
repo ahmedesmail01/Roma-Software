@@ -416,11 +416,11 @@ const GlobSec = () => {
           className="div"
         >
           <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
-            We sell soap worldwide
+            We sell Solutions worldwide
           </h2>
           <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
-            This globe is interactive and customizable. Have fun with it, and
-            don&apos;t forget to share it. :)
+            We Engineer Intelligent Software Solutions That Transform Today
+            Challenges Into Tomorrow Opportunities. :)
           </p>
         </motion.div>
         {/* <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" /> */}
